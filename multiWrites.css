@@ -13,8 +13,10 @@ body {
 }
 
 body p {
-  padding-left: 2em;
-  background-color: 
+  padding: 0.5em 0.5em;
+  margin: 20px auto;
+  background-color: #eee;
+  width: 720px;
 }
 
 h1 {
@@ -43,6 +45,7 @@ header {
   padding: 30px 130px;
 }
 
+/*Alignment of the avatar */
 img {
   float: left;
 }
@@ -57,6 +60,7 @@ li, li a {
   margin-bottom: 2px;
 }
 
+/*The portion that highlights the new page links */
 #pages {
   width: 720px;
   margin: 10px auto;
@@ -72,6 +76,21 @@ li, li a {
   width: 300px;
 }
 
+/*Changes the CSS for the innerHTML and textContent strings */
+.cssChanged {
+  padding: 0.5em 1.5em;
+  color: #a7cdf2;
+  width: 720px;
+  margin: 10px auto;
+  font-weight: strong;
+  font-size: 1.5em;
+  background-color: background-image: -webkit-gradient(linear, left top, left bottom, from(#255687), to(#183a5b));
+  background-image: -webkit-linear-gradient(top, #255687, #183a5b);
+  background-image: -moz-linear-gradient(top, #25568, #183a5b);
+  background-image: linear-gradient(to bottom, #255687, #183a5b);
+}
+
+/*Set the footer's CSS */
 footer {
   position: absolute;
   right: 0;
