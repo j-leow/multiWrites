@@ -1,0 +1,87 @@
+/** multiWrites.css
+ ** Jules Leow
+ ** 09/04/2017
+ **/
+
+body {
+  background-color: #333;
+  background-image: url(images/ShipBG.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+body p {
+  padding-left: 2em;
+  background-color: 
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  margin-left: 400px;
+}
+
+h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+	width: 100%;
+	color: #1E6E68;
+	line-height: 40px;
+}
+h3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #1E6E68;
+	line-height: 30px;
+	text-align: center;
+}
+
+header {
+  text-align: left;
+  color: #fff;
+  background-color: #154156;
+  padding: 30px 130px;
+}
+
+img {
+  float: left;
+}
+
+li, li a {
+  list-style: none;
+  background-color: #2a8093;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+  padding: 4px;
+  margin-bottom: 2px;
+}
+
+#pages {
+  width: 720px;
+  margin: 10px auto;
+  box-shadow: 0 2px 15px #eee;
+  min-height: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+#pages ul {
+  float: left;
+  width: 300px;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+  background-color: #154156;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+}
