@@ -8,6 +8,6 @@ Original Build
 */
 
 $(document).ready(function() {
-    var writeMethodStr = 'Arrr! I be Cap\'n Jules Leow! Yer timbers be shiver\'n if ye knew the type-a pirate yer messin\' with!';
-    document.write(writeMethodStr);
+    var writeMethodStr = 'Arrr! I be Cap\'n Jules Leow! Yer timbers be shiver\'n if ye knew the type-a pirate yer messin\' with!'; //Set a variable to the string I want.
+    document.write(writeMethodStr); //Replace the html with the document.write() method by passing in string from the variable.
 }); 
