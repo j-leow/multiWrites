@@ -5,9 +5,9 @@
 
 body {
   background-color: #333;
-  background-image: url(images/ShipBG.jpg);
+  background-image: url('../images/ship.jpg'); 
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   
 }
@@ -48,6 +48,7 @@ header {
 /*Alignment of the avatar */
 img {
   float: left;
+  margin: 10px 20px;
 }
 
 li, li a {
